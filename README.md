@@ -121,8 +121,8 @@ Each section has its own color. The header, accents and highlights switch automa
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,html,css,js,apache&theme=dark">
-    <img src="https://skillicons.dev/icons?i=laravel,php,html,css,js,apache&theme=light" alt="Laravel, PHP, HTML, CSS, JavaScript, Apache">
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/stack-dark.svg">
+    <img src=".github/assets/stack-light.svg" alt="Laravel, PHP, HTML, CSS, JavaScript, Apache">
   </picture>
 </p>
 
