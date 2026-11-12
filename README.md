@@ -120,10 +120,7 @@ Each section has its own color. The header, accents and highlights switch automa
 ## Tech Stack
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/stack-dark.svg">
-    <img src=".github/assets/stack-light.svg" alt="Laravel, PHP, HTML, CSS, JavaScript, Apache">
-  </picture>
+  <img src=".github/assets/stack.png" alt="Laravel, PHP, HTML, CSS, JavaScript" width="340">
 </p>
 
 | Layer | Technology |
