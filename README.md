@@ -10,14 +10,17 @@
 [![License](https://img.shields.io/badge/license-proprietary-111111?style=for-the-badge)](LICENSE)
 [![Source](https://img.shields.io/badge/source-closed-555555?style=for-the-badge&logo=github)](#license)
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP_8.3-777BB4?style=flat-square&logo=php&logoColor=white)
-![Blade](https://img.shields.io/badge/Blade-F05340?style=flat-square&logo=laravel&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=apache&logoColor=white)
-
-[Website](https://ibrethaber.com) &nbsp;·&nbsp; [Screenshots](#screenshots) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Tech Stack](#tech-stack) &nbsp;·&nbsp; [Contact](#contact)
+<h3>
+  <a href="https://ibrethaber.com">Website</a>
+  <span> · </span>
+  <a href="#features">Features</a>
+  <span> · </span>
+  <a href="#screenshots">Screenshots</a>
+  <span> · </span>
+  <a href="#tech-stack">Tech Stack</a>
+  <span> · </span>
+  <a href="#contact">Contact</a>
+</h3>
 
 </div>
 
@@ -26,20 +29,51 @@
 > [!IMPORTANT]
 > This repository is a showcase only. ibrethaber.com is a closed-source product and its source code is kept in a private repository. What you will find here is an overview of the project, screenshots and the license terms.
 
-## About
+## Overview
 
 [ibret.](https://ibrethaber.com) is a Turkish online news platform covering breaking news, world affairs, economy, sports, politics, technology, entertainment, health and culture.
 
-I built it from the ground up: the public website, the editorial back office used to publish content, and the server setup behind it. The aim was simple. A news site that loads fast, reads well on a phone and stays out of the reader's way, while still giving editors the tools a real newsroom needs.
+It was built from the ground up: the public website, the editorial back office used to publish content, and the server setup behind it. The aim was simple. A news site that loads fast, reads well on a phone and stays out of the reader's way, while still giving editors the tools a real newsroom needs.
 
-<table>
-<tr>
-<td align="center" width="25%"><h3>10+</h3>news categories</td>
-<td align="center" width="25%"><h3>4</h3>sports sub-sections</td>
-<td align="center" width="25%"><h3>4</h3>market data pages</td>
-<td align="center" width="25%"><h3>100%</h3>responsive</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/stats-dark.png">
+  <img src=".github/assets/stats-light.png" alt="10+ news categories, 4 sports sections, 4 market data pages, 100% responsive" width="100%">
+</picture>
+
+<br><br>
+
+<div align="center">
+  <a href="https://ibrethaber.com">
+    <img src=".github/assets/demo.gif" alt="A short walkthrough of ibrethaber.com: homepage, sports, economy and an article page" width="100%">
+  </a>
+  <br>
+  <sub>Homepage, Sports, Economy and an article page, captured from the live site.</sub>
+</div>
+
+## Features
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/features-dark.png">
+  <img src=".github/assets/features-light.png" alt="Breaking news first, category color themes, mobile first, markets and services, built for search, editorial back office" width="100%">
+</picture>
+
+<details>
+<summary><b>Full feature list</b></summary>
+<br>
+
+| Area | What it includes |
+|:--|:--|
+| Reading | Headline slider, breaking news feed, featured carousel, most read stories, columnists, photo and video galleries |
+| Sections | World, Türkiye, Politics, Economy, Sports, Magazine, Technology, Health, Culture and Arts |
+| Sports | Football, basketball, volleyball and tennis |
+| Markets | Currency, gold, stock market and crypto pages |
+| Services | On-duty pharmacy finder |
+| Design | Mobile-first responsive layout, per-category color themes, tabbed sidebar widgets, navigation drawer, search, lazy-loaded images |
+| SEO | Clean URLs, canonical tags, Open Graph and Twitter Cards, JSON-LD, XML sitemap, RSS |
+| Back office | Custom admin panel for articles, categories, tags, authors and media |
+| Compliance and security | KVKK, privacy, cookie and terms pages, CSRF protection, secure sessions, HTTPS |
+
+</details>
 
 ## Screenshots
 
@@ -83,58 +117,14 @@ Each section has its own color. The header, accents and highlights switch automa
 
 <img src=".github/assets/mobile-showcase.png" alt="Mobile screens" width="100%">
 
-## Features
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-**Reading experience**
-- Headline slider with numbered pagination
-- Breaking news feed with timestamps
-- Featured headline carousel with a vertical index
-- Most read stories of the week
-- Clean article layout with related content
-- Columnists section
-- Photo and video galleries
-
-</td>
-<td valign="top" width="50%">
-
-**Sections and services**
-- World, Türkiye, Politics, Economy, Sports, Magazine, Technology, Health, Culture and Arts
-- Football, basketball, volleyball and tennis under Sports
-- Currency, gold, stock market and crypto pages under Economy
-- On-duty pharmacy finder
-- Tag-based content discovery
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-**Design**
-- Mobile-first, fully responsive layout
-- Per-category color themes
-- Tabbed sidebar widgets for sports, economy, magazine and gold
-- Full-screen navigation drawer and search
-- Lazy-loaded images
-
-</td>
-<td valign="top" width="50%">
-
-**Platform**
-- Custom editorial admin panel
-- Category, tag, author and media management
-- SEO: clean URLs, canonical tags, Open Graph and Twitter Cards, JSON-LD, XML sitemap, RSS
-- KVKK, privacy, cookie and terms pages
-- CSRF protection, secure sessions, HTTPS
-
-</td>
-</tr>
-</table>
-
 ## Tech Stack
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,html,css,js,apache&theme=dark">
+    <img src="https://skillicons.dev/icons?i=laravel,php,html,css,js,apache&theme=light" alt="Laravel, PHP, HTML, CSS, JavaScript, Apache">
+  </picture>
+</p>
 
 | Layer | Technology |
 |:--|:--|
