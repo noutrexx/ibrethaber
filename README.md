@@ -165,5 +165,5 @@ If you are interested in the project, want to collaborate or are looking for a s
 
 <div align="center">
 <br>
-<sub>Designed and developed by <a href="https://github.com/noutrexx">noutrexx</a></sub>
+<sub>Designed and developed by <a href="https://github.com/noutrexx">noutrexx</a> and loex</sub>
 </div>
